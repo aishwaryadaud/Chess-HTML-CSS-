@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  		margin: 0;
+  		font-family: 'Lora' Serif;
+  		background-image: linear-gradient(to bottom right,#041637, pink, yellow);
+
+}
+
+.header {
+ 		  overflow: hidden;
+  		background-color: #041637;
+  		padding: 20px 10px;
+  		 
+}
+
+.header a {
+  		float: left;
+  		text-align: center;
+  		padding: 12px;
+  		text-decoration: none;
+  		font-size: 18px; 
+  		line-height: 25px;
+  		border-radius: 4px;
+}
+
+.header a.logo {
+  		font-size: 45px;
+  		font-weight: bolder;
+  		color: white;
+  		text-shadow: 3px 3px 3px black; /*Chess for beginners*/
+}
+
+.header-right a:hover {
+		background-color: white;
+		font-weight: bolder;
+
+}
+		
+.header a.active {
+ 			color: #20B2AA;
+}
+
+.header-right {
+ 			 float: right;
+}
+
+/* index.html*/
+.para{
+      color: #2B1B17;
+      font-size: 23px;
+}
+
+#image{
+      width: 900px;
+      height: 400px;
+      border: 2px solid black;
+}
+
+
+
+/*For index.html,about.html*/
+.body{
+      text-align: center;
+    }
+
+/*Rules.html*/
+.frame{
+    padding:20px;
+}
+    
+.play{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.play a:hover{
+    color: #20B2AA;
+    background-color: #041637;
+    font-weight: bolder;
+}
+
+/*Special.html , common.html*/
+.h1{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+} 
+.spe{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.h2{
+    border: 1px solid #A3C5F9;
+    background-color: #755FE3;
+}
+.body1{ 
+        margin: 0;
+        font-family: 'Lora' Serif;
+        background-color: #B3A7ED;
+}
+
+.pic{/*common.html*/
+    text-align: center;
+}
+
+
+
+
+/*About.html*/
+.he2{
+      font-size: 30px;
+      color: #050117;
+      font-family: 'Lora' Serif;
+      border: 2px solid #A3C5F9;
+      background-color: #755FE3;
+}
+.para1{
+      font-family: 'Lora' Serif;
+      font-size: 20px;
+}
+.img{
+      border: 20px solid black;
+      padding :10px;
+}
+
+/*comment.html*/    
+.com{
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 600px;
+}
+.form{
+  padding-left: 600px;
+  padding-bottom: 20px;
+}
+.comment{
+    text-align: center;
+    padding-bottom: 110px;
+}
+.Comment-img{
+  float: left;
+  height: 513px;
+  width: 700px;
+}
+input[type=text],input[type=email],textarea{
+  width: 20%;
+  border-radius: 5px;
+  resize: vertical;
+  box-sizing: border-box;
+ padding-bottom: 10px;
+} 
+
+
+footer {
+      background-color: #B7BEC2;
+      padding: 25px;
+      text-align: center;
+      color: #3F4244;
+}
